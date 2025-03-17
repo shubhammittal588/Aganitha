@@ -3,6 +3,10 @@
 ## Overview
 PubMed Paper Fetcher is a Python module and command-line tool that retrieves research papers from PubMed based on a user-specified query. It identifies papers where at least one author is affiliated with a pharmaceutical or biotech company and saves the results as a CSV file.
 
+## Output
+![Screenshot 2025-03-17 at 8 58 07 PM](https://github.com/user-attachments/assets/07807607-9a9a-4c93-a7a4-0b8dd4f99a00)
+
+
 ## Features
 - Fetches research papers using the PubMed API.
 - Filters papers with at least one non-academic (pharma/biotech) author.
@@ -117,6 +121,4 @@ export SSL_CERT_FILE=$(brew --prefix openssl)/etc/openssl@1.1/cert.pem
 ## License
 This project is licensed under the MIT License.
 
-## Contact
-For questions, reach out at: your_email@example.com
 
