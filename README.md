@@ -34,8 +34,8 @@ pip install --index-url https://test.pypi.org/simple/ pubmed-fetcher
 
 ### Clone the Repository (For Development)
 ```sh
-git clone https://github.com/yourusername/pubmed-paper-fetcher.git
-cd pubmed-paper-fetcher
+git clone https://github.com/shubhammittal588/aganitha.git
+cd aganitha
 ```
 
 ### Install Dependencies
