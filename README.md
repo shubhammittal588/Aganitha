@@ -45,16 +45,10 @@ poetry install
 
 ## Code Organization
 ```
-├── pubmed_fetcher/          # Main module
-│   ├── __init__.py         # Module initialization
-│   ├── fetch.py            # Fetching logic
-│   ├── utils.py            # Utility functions
-│   └── cli.py              # Command-line entry point
-├── tests/                   # Unit tests
+├── pubmed_paper_fetcher.py  # Main script for fetching papers
 ├── README.md                # Documentation
 ├── pyproject.toml           # Poetry configuration
 ├── results.csv              # Example output file
-└── outputs/                 # (Optional) Folder for CSV results
 ```
 
 ## Usage
