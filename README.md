@@ -40,7 +40,12 @@ cd aganitha
 
 ### Install Dependencies
 ```sh
+python3 -m venv poetry-env
+source poetry-env/bin/activate
+pip install poetry
 poetry install
+pip install --upgrade certifi                                                                           
+export SSL_CERT_FILE=$(python -m certifi)
 ```
 
 ## Code Organization
